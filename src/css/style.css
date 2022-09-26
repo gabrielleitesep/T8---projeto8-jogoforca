@@ -39,6 +39,7 @@
     position: absolute;
     right: 100px;
     top: 35px;
+    cursor: pointer;
 }
 
 .teclado{
@@ -57,11 +58,12 @@
     margin: 2px;
     font-size:15px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .clicado {
     background-color: #9faab5;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 .chute{
@@ -86,6 +88,7 @@
     color: #39739d;
     font-size:15px;
     font-weight: 700;
+    cursor: pointer;
 }
 .chute p{
     font-size: 20px;
