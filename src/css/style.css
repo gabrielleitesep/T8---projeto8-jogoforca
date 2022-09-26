@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+.root{
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    width: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.jogo{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.jogo img{
+    width: 330px;
+    height: 420px;
+}
+
+.jogo button{
+    width: 150px;
+    height: 40px;
+    background-color: #27ae60;
+    border-radius: 5px;
+    color: white;
+    font-style: medium;
+    font-size:15px;
+    font-weight: 500;
+    position: absolute;
+    right: 100px;
+    top: 35px;
+}
+
+.teclado{
+    width: 600px;
+    height: 80px;
+    margin: 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.teclado button{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    font-size:15px;
+    font-weight: 700;
+}
+
+.clicado {
+    background-color: #9faab5;
+    opacity: 0.2;
+}
+
+.chute{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chute input{
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.chute button{
+    width: 70px;
+    height: 30px;
+    background-color: #e1ecf4;
+    border-radius: 5px;
+    color: #39739d;
+    font-size:15px;
+    font-weight: 700;
+}
+.chute p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.palavra{
+    width: 140px;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+}
+.erro{
+    color:  red;
+}
+.acerto{
+    color: #27ae60;
+}
